@@ -41,6 +41,12 @@ It has been tested with ruby 1.8.6, 1.8.7 and 1.9.2. For local development, you 
 * `echo "export HTTP_X_USERNAME=$USER\nexport HTTP_X_GROUPS=foo" > .powenv`
 * visit [deployinator.dev](http://deployinator.dev) in your browser
 
+If you are running lion (OSX 10.7) you should also grab the sshpass binary file from this thread:
+
+* http://apple.stackexchange.com/questions/18238/mac-os-x-lion-and-sshpass
+
+That will allow you to enter a password when connecting to the server via SSH.
+
 If you are using RVM you may need to echo the ruby version like so:
 
 * `echo "rvm ruby-1.9.3-head" > .rvmrc`
